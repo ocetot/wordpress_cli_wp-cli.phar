@@ -1,0 +1,1 @@
+# wordpress_cli_wp-cli.phar
