@@ -19,3 +19,8 @@ wp core install --url=http://localhost/apiwordpress --title="apiwordpress" --adm
 
 
 wp theme activate twentytwentyone
+
+*genera 10 post
+
+
+wp post generate --count=10
