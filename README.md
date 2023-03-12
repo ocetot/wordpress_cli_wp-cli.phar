@@ -8,6 +8,12 @@ wp core download --locale=es_ES
 
 wp config create --dbname=apiwordpress --dbuser=root --dbpass= --dbhost=localhost
 
-* ingreso al admin o login de wordpress por consola /// 
+* borra la base de datos
+ wp db clean --yes
 
-wp core install --url=wordpress.test --title="apiwordpress" --admin_user=admin --admin_password=123456 --admin_email=mensajeriayin@gmail.com
+* ingreso al admin o login de wordpress por consola /// (༼ つ ◕_◕ ༽つ😑 coloca la url bien en esta caso local http://localhost/apiwordpress )
+
+wp core install --url=http://localhost/apiwordpress --title="apiwordpress" --admin_user=admin --admin_password=123456 --admin_email=mensajeriayin@gmail.com
+
+*tema par wordpress
+wp theme activate twentytwentyone
