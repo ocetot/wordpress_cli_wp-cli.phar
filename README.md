@@ -15,12 +15,12 @@ wp config create --dbname=apiwordpress --dbuser=root --dbpass= --dbhost=localhos
 
 wp core install --url=http://localhost/apiwordpress --title="apiwordpress" --admin_user=admin --admin_password=123456 --admin_email=mensajeriayin@gmail.com
 
-*tema par wordpress
+* tema par wordpress
 
 
 wp theme activate twentytwentyone
 
-*genera 10 post
+* genera 10 post
 
 
 wp post generate --count=10
