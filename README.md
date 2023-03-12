@@ -29,3 +29,9 @@ wp post generate --count=10
 * instala woocommerce plugin
 
 wp plugin install woocommerce -activete
+
+
+* contraseña aplicacion //(wp-config.php)
+
+define('WP_ENVIRONMENT_TYPE', 'local');
+
