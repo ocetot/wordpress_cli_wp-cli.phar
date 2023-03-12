@@ -26,6 +26,6 @@ wp theme activate twentytwentyone
 wp post generate --count=10
 
 
-* instal woocommerce plugin
+* instala woocommerce plugin
 
 wp plugin install woocommerce -activete
