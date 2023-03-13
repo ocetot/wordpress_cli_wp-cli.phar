@@ -4,16 +4,16 @@
 
 wp core download --locale=es_ES
 
-* para configurar wp-config /// base de datos ya creada
+* agrega los datos de una base de datos previeamente creada
 
-wp config create --dbname=apiwordpress --dbuser=root --dbpass= --dbhost=localhost
+wp config create --dbname=p --dbuser=root --dbpass= --dbhost=localhoset --dbprefix=wp_
 
 * borra la base de datos
  wp db clean --yes
 
 * ingreso al admin o login de wordpress por consola /// (༼ つ ◕_◕ ༽つ😑 coloca la url bien en esta caso local http://localhost/apiwordpress )
 
-wp core install --url=http://localhost/apiwordpress --title="apiwordpress" --admin_user=admin --admin_password=123456 --admin_email=mensajeriayin@gmail.com
+wp core install --url=http://localhost/p --title="p de prueba" --admin_user=admin --admin_password=123456 --admin_email=mensajeriayin@gmail.com
 
 * tema par wordpress
 
