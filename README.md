@@ -13,7 +13,7 @@ wp config create --dbname=p --dbuser=root --dbpass= --dbhost=localhoset --dbpref
 
 * ingreso al admin o login de wordpress por consola /// (༼ つ ◕_◕ ༽つ😑 coloca la url bien en esta caso local http://localhost/apiwordpress )
 
-wp core install --url=http://localhost/apiwordpress --title="apiwordpress" --admin_user=admin --admin_password=123456 --admin_email=mensajeriayin@gmail.com
+wp core install --url=http://localhost/p --title="p de prueba" --admin_user=admin --admin_password=123456 --admin_email=mensajeriayin@gmail.com
 
 * tema par wordpress
 
