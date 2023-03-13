@@ -9,6 +9,7 @@ wp core download --locale=es_ES
 wp config create --dbname=p --dbuser=root --dbpass= --dbhost=localhost --dbprefix=wp_
 
 
+
 * borra la base de datos
  wp db clean --yes
 
