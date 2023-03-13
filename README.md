@@ -4,9 +4,9 @@
 
 wp core download --locale=es_ES
 
-* para configurar wp-config /// base de datos ya creada
+* agrega los datos de una base de datos previeamente creada
 
-wp config create --dbname=apiwordpress --dbuser=root --dbpass= --dbhost=localhost
+wp config create --dbname=p --dbuser=root dbpass= --dbhost=localhoset --dbprefix=wp_
 
 * borra la base de datos
  wp db clean --yes
