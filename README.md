@@ -6,7 +6,7 @@ wp core download --locale=es_ES
 
 * agrega los datos de una base de datos previeamente creada
 
-wp config create --dbname=p --dbuser=root dbpass= --dbhost=localhoset --dbprefix=wp_
+wp config create --dbname=p --dbuser=root --dbpass= --dbhost=localhoset --dbprefix=wp_
 
 * borra la base de datos
  wp db clean --yes
